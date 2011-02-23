@@ -19,13 +19,17 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "lib/tasks/test_frame.rake",
     "lib/test_frame.rb",
+    "lib/test_frame/railtie.rb",
     "test/helper.rb",
-    "test/test_test_frame.rb"
+    "test/test_test_frame.rb",
+    "test_frame.gemspec"
   ]
   s.homepage = %q{http://github.com/mateomurphy/test_frame}
   s.licenses = ["MIT"]
