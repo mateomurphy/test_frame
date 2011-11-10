@@ -19,16 +19,6 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{A set of gems for testing rails apps}
   gem.email = "mateo.murphy@gmail.com"
   gem.authors = ["Mateo Murphy"]
-  # Include your dependencies below. Runtime dependencies are required when using your gem,
-  # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  gem.add_runtime_dependency 'rspec-rails', '> 0.1'
-  gem.add_runtime_dependency 'steak', '> 0.1'
-  gem.add_runtime_dependency 'capybara', '> 0.1'
-  gem.add_runtime_dependency 'ZenTest', '> 0.1'
-  gem.add_runtime_dependency 'autotest-rails', '> 0.1'
-  gem.add_runtime_dependency 'spork', '~> 0.9.0.rc'
-  gem.add_runtime_dependency 'factory_girl_rails', '> 0.1'
-  #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
