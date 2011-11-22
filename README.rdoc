@@ -9,8 +9,7 @@ Based on http://www.rubyinside.com/how-to-rails-3-and-rspec-2-4336.html
 Add the gems to your app Gemfile
 
   group :development, :test do
-    gem 'test_frame', :path => '../test_frame'
-    gem 'steak'
+    gem 'test_frame'
   end
 
 then
