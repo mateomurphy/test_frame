@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mateo Murphy"]
-  s.date = %q{2011-11-09}
+  s.date = %q{2011-11-21}
   s.description = %q{A set of gems for testing rails apps}
   s.email = %q{mateo.murphy@gmail.com}
   s.extra_rdoc_files = [
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/mateomurphy/test_frame}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.3}
+  s.rubygems_version = %q{1.5.2}
   s.summary = %q{A set of gems for testing rails apps}
   s.test_files = [
     "test/helper.rb",
@@ -45,39 +45,48 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rake>, ["~> 0.9.2"])
       s.add_runtime_dependency(%q<capybara>, [">= 0"])
       s.add_runtime_dependency(%q<database_cleaner>, [">= 0"])
       s.add_runtime_dependency(%q<email_spec>, [">= 0"])
       s.add_runtime_dependency(%q<factory_girl_rails>, [">= 0"])
+      s.add_runtime_dependency(%q<guard>, [">= 0"])
+      s.add_runtime_dependency(%q<guard-rspec>, [">= 0"])
+      s.add_runtime_dependency(%q<guard-spork>, [">= 0"])
       s.add_runtime_dependency(%q<launchy>, [">= 0"])
-      s.add_runtime_dependency(%q<log_buddy>, [">= 0"])
+      s.add_runtime_dependency(%q<rake>, ["~> 0.9.2"])
       s.add_runtime_dependency(%q<rspec-rails>, ["~> 2.6"])
+      s.add_runtime_dependency(%q<spork>, ["~> 0.9.0.rc"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
-      s.add_dependency(%q<rake>, ["~> 0.9.2"])
       s.add_dependency(%q<capybara>, [">= 0"])
       s.add_dependency(%q<database_cleaner>, [">= 0"])
       s.add_dependency(%q<email_spec>, [">= 0"])
       s.add_dependency(%q<factory_girl_rails>, [">= 0"])
+      s.add_dependency(%q<guard>, [">= 0"])
+      s.add_dependency(%q<guard-rspec>, [">= 0"])
+      s.add_dependency(%q<guard-spork>, [">= 0"])
       s.add_dependency(%q<launchy>, [">= 0"])
-      s.add_dependency(%q<log_buddy>, [">= 0"])
+      s.add_dependency(%q<rake>, ["~> 0.9.2"])
       s.add_dependency(%q<rspec-rails>, ["~> 2.6"])
+      s.add_dependency(%q<spork>, ["~> 0.9.0.rc"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rake>, ["~> 0.9.2"])
     s.add_dependency(%q<capybara>, [">= 0"])
     s.add_dependency(%q<database_cleaner>, [">= 0"])
     s.add_dependency(%q<email_spec>, [">= 0"])
     s.add_dependency(%q<factory_girl_rails>, [">= 0"])
+    s.add_dependency(%q<guard>, [">= 0"])
+    s.add_dependency(%q<guard-rspec>, [">= 0"])
+    s.add_dependency(%q<guard-spork>, [">= 0"])
     s.add_dependency(%q<launchy>, [">= 0"])
-    s.add_dependency(%q<log_buddy>, [">= 0"])
+    s.add_dependency(%q<rake>, ["~> 0.9.2"])
     s.add_dependency(%q<rspec-rails>, ["~> 2.6"])
+    s.add_dependency(%q<spork>, ["~> 0.9.0.rc"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])

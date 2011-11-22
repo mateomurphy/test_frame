@@ -1,13 +1,16 @@
 source "http://rubygems.org"
 
-gem 'rake', '~> 0.9.2'
 gem 'capybara'
 gem 'database_cleaner'
 gem 'email_spec' # https://github.com/bmabey/email-spec
 gem 'factory_girl_rails'
+gem 'guard'
+gem 'guard-rspec'
+gem 'guard-spork'
 gem 'launchy'
-gem 'log_buddy'
+gem 'rake', '~> 0.9.2'
 gem "rspec-rails", "~> 2.6"
+gem 'spork', '~> 0.9.0.rc'
 
 group :development do
   gem "bundler", "~> 1.0.0"
