@@ -4,6 +4,9 @@ gem 'capybara'
 gem 'database_cleaner'
 gem 'email_spec' # https://github.com/bmabey/email-spec
 gem 'factory_girl_rails'
+gem 'rb-inotify', :require => false
+gem 'rb-fsevent', :require => false
+gem 'rb-fchange', :require => false
 gem 'guard'
 gem 'guard-rspec'
 gem 'guard-spork'
