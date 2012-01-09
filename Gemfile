@@ -12,7 +12,7 @@ gem 'guard-rspec'
 gem 'guard-spork'
 gem 'launchy'
 gem 'rake', '~> 0.9.2'
-gem "rspec-rails", "~> 2.6"
+gem "rspec-rails", "~> 2.8"
 gem "shoulda-matchers"
 gem 'spork', '~> 0.9.0.rc'
 
