@@ -14,7 +14,7 @@ gem 'launchy'
 gem 'rake', '~> 0.9.2'
 gem 'rspec-rails'
 gem 'shoulda-matchers'
-gem 'spork', '~> 0.9.2' # https://github.com/sporkrb/spork
+gem 'spork' # https://github.com/sporkrb/spork
 
 group :development do
   gem 'bundler'
