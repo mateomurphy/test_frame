@@ -11,7 +11,7 @@ gem 'guard'
 gem 'guard-rspec'
 gem 'guard-spork'
 gem 'launchy'
-gem 'rake', '~> 0.9.2'
+gem 'rake', '~> 10.0.2'
 gem 'rspec-rails'
 gem 'shoulda-matchers'
 gem 'spork' # https://github.com/sporkrb/spork
