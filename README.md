@@ -1,5 +1,7 @@
 # test_frame
 
+[![Dependency Status](https://gemnasium.com/mateomurphy/test_frame.png)](https://gemnasium.com/mateomurphy/test_frame)
+
 Easily install all the gems needed to test your app!
 
 Based on http://www.rubyinside.com/how-to-rails-3-and-rspec-2-4336.html
@@ -15,7 +17,7 @@ Add the gems to your app Gemfile
 then
 
 * `rake test_frame:install`
-* open `spec/spec_helper.rb` and follow the instuctions to configure spork
+* open `spec/spec_helper.rb` and follow the instructions to configure spork
 * open .rspec and add `--drb` to have the rspec command use spork
 
 ## Contributing to test_frame
