@@ -18,6 +18,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     addressable (2.3.2)
+    awesome_print (1.1.0)
     bourne (1.1.2)
       mocha (= 0.10.5)
     builder (3.0.4)
@@ -158,6 +159,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   bundler
   capybara
   database_cleaner

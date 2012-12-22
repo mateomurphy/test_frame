@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'awesome_print'
 gem 'capybara'
 gem 'database_cleaner'
 gem 'email_spec' # https://github.com/bmabey/email-spec
