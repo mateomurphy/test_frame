@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "test_frame"
-  s.version = "0.3.0"
+  s.version = "0.3.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mateo Murphy"]
-  s.date = "2012-12-22"
+  s.date = "2013-02-08"
   s.description = "A set of gems for testing rails apps"
   s.email = "mateo.murphy@gmail.com"
   s.extra_rdoc_files = [
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/mateomurphy/test_frame"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.23"
+  s.rubygems_version = "1.8.24"
   s.summary = "A set of gems for testing rails apps"
 
   if s.respond_to? :specification_version then
